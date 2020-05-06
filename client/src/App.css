@@ -1,0 +1,83 @@
+body{
+  padding: 10px;
+}
+
+.plane {
+  margin: 20px auto;
+  max-width: 300px;
+}
+
+.cockpit {
+  height: 250px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  border-bottom: 5px solid #d8d8d8;
+}
+.cockpit:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 500px;
+  width: 97%;
+  border-radius: 50%;
+  border-right: 5px solid #d8d8d8;
+  border-left: 5px solid #d8d8d8;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+table {
+  display: inline-flex;
+  margin: 10px;
+}
+
+.WINDOW {
+  background: lightgreen;
+}
+.MIDDLE {
+  background: lightcoral;
+}
+.CORNER {
+  background: lightskyblue;
+}
+
+td {
+  padding: 10px;
+  font-size: 20px;
+}
+
+.form-inline {  
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+.form-inline label {
+  margin: 5px 10px 5px 0;
+}
+
+.form-inline input {
+  vertical-align: middle;
+  margin: 5px 10px 5px 0;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+.form-inline button {
+  padding: 10px 20px;
+  background-color: dodgerblue;
+  border: 1px solid #ddd;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+
+.form-inline button:hover {
+  background-color: royalblue;
+}
